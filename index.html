@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="score-board">
+        <div class="game-name">
+            <p>ROCK</p>
+            <p>PAPER</p>
+            <p>SCISSOR</p>
+        </div>
+        <div class="player-score">
+            <div class="computer-score">
+                <p>COMPUTER SCORE</p>
+                <p class="pcscore">0</p>
+            </div>
+            <div class="your-score">
+                <p>YOUR </p>
+                <p>SCORE</p>
+                <span class="userscore">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="winner-page">
+        <div class="celebration">
+            <img class="stars" src="./assets/stars.svg" alt="">
+            <img class="trophy" src="./assets/trophy.svg" alt="">
+            <h1 class="hurray">HURRAY!!</h1>
+            <h1 class="won-msg">YOU WON THE GAME</h1>
+            <button class="play-again-celeb">PLAY AGAIN</button>
+        </div>
+    </div>
+    <div class="game-sec">
+        <div class="users">
+            <p class="user">YOU PICKED</p>
+            <p class="pc-user">PC PICKED</p>
+        </div>
+        <div class="select-option">
+           <img class="lines" src="./assets/bg-triangle.svg" alt="">
+            <div class="scissor option">
+                <div class="item">
+                    <img src="./assets/SCISSORS.svg" alt="scissor">
+                </div>
+            </div>
+            <div class="rock option">
+                <div class="item">
+                    <img src="./assets/rock.svg" alt="scissor">
+                </div>
+            </div>
+            <div class="paper option">
+                <div class="item">
+                    <img src="./assets/Paper.svg" alt="scissor">
+                </div>
+            </div>
+            <div class="scissor pc">
+                <div class="item">
+                    <img src="./assets/SCISSORS.svg" alt="scissor">
+                </div>
+            </div>
+            <div class="rock pc">
+                <div class="item">
+                    <img src="./assets/rock.svg" alt="scissor">
+                </div>
+            </div>
+            <div class="paper pc">
+                <div class="item">
+                    <img src="./assets/Paper.svg" alt="scissor">
+                </div>
+            </div>
+        </div>
+        <div class="rule-btn">
+            <button class="rulebtn">RULES</button>
+            <button class="nextbtn">NEXT</button>
+        </div>
+        <div class="rule-pop">
+            <div class="game-rules">
+                <div>
+                    <img class="close" src="./assets/close btn.svg" alt="">
+                </div>
+                <img src="./assets/rules.svg" alt="">
+            </div>
+        </div>
+        <div class="game-win">
+            <h1 class="winner">YOU WIN</h1>
+            <button class="play-again">PLAY AGAIN</button>
+        </div>
+        <!-- <div class="game-lost">
+            <h1 class="lost">YOU LOST</h1>
+            <h2 class="lost">AGAINST PC</h2>
+            <button class="play-again">PLAY AGAIN</button>
+        </div>
+        <div class="tie-up">
+            <h1 class="tie">TIE UP</h1>
+            <button class="play-again">PLAY AGAIN</button>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
